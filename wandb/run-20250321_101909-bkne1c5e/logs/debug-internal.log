@@ -1,0 +1,8 @@
+{"time":"2025-03-21T10:19:09.1079196+05:45","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"e:\\project\\CV with DL\\wandb\\run-20250321_101909-bkne1c5e\\logs\\debug-core.log"}
+{"time":"2025-03-21T10:19:10.2492304+05:45","level":"INFO","msg":"created new stream","id":"bkne1c5e"}
+{"time":"2025-03-21T10:19:10.2492304+05:45","level":"INFO","msg":"stream: started","id":"bkne1c5e"}
+{"time":"2025-03-21T10:19:10.2492304+05:45","level":"INFO","msg":"writer: Do: started","stream_id":"bkne1c5e"}
+{"time":"2025-03-21T10:19:10.2492304+05:45","level":"INFO","msg":"handler: started","stream_id":"bkne1c5e"}
+{"time":"2025-03-21T10:19:10.2492304+05:45","level":"INFO","msg":"sender: started","stream_id":"bkne1c5e"}
+{"time":"2025-03-21T10:19:10.9089242+05:45","level":"ERROR","msg":"HTTP error","status":400,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-21T10:19:10.9089242+05:45","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 400: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"you may not log runs directly to your organization, please try using your team entity\",\"path\":[\"upsertBucket\"]}]}"}

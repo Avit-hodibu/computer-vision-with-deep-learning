@@ -1,0 +1,49 @@
+2025-03-21 10:19:09,089 INFO    MainThread:14732 [wandb_init.py:setup_run_log_directory():647] Logging user logs to e:\project\CV with DL\wandb\run-20250321_101909-bkne1c5e\logs\debug.log
+2025-03-21 10:19:09,089 INFO    MainThread:14732 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to e:\project\CV with DL\wandb\run-20250321_101909-bkne1c5e\logs\debug-internal.log
+2025-03-21 10:19:09,090 INFO    MainThread:14732 [wandb_init.py:init():761] calling init triggers
+2025-03-21 10:19:09,090 INFO    MainThread:14732 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-21 10:19:09,090 INFO    MainThread:14732 [wandb_init.py:init():784] starting backend
+2025-03-21 10:19:09,090 INFO    MainThread:14732 [wandb_init.py:init():788] sending inform_init request
+2025-03-21 10:19:09,098 INFO    MainThread:14732 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-03-21 10:19:09,098 INFO    MainThread:14732 [wandb_init.py:init():798] backend started and connected
+2025-03-21 10:19:09,100 INFO    MainThread:14732 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-21 10:19:09,695 INFO    MainThread:14732 [wandb_init.py:init():891] updated telemetry
+2025-03-21 10:19:09,751 INFO    MainThread:14732 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-21 10:19:10,910 ERROR   MainThread:14732 [wandb_init.py:init():1478] error in wandb.init()
+Traceback (most recent call last):
+  File "c:\Users\avith\anaconda3\envs\cv_dl\lib\site-packages\wandb\sdk\wandb_init.py", line 1468, in init
+    return wi.init(run_settings, run_config)
+  File "c:\Users\avith\anaconda3\envs\cv_dl\lib\site-packages\wandb\sdk\wandb_init.py", line 963, in init
+    raise error
+wandb.errors.errors.CommError: failed to upsert bucket: returned error 400: {"data":{"upsertBucket":null},"errors":[{"message":"you may not log runs directly to your organization, please try using your team entity","path":["upsertBucket"]}]}
+2025-03-21 10:19:25,733 INFO    MainThread:14732 [wandb_init.py:setup_run_log_directory():647] Logging user logs to e:\project\CV with DL\wandb\run-20250321_101925-19ih43le\logs\debug.log
+2025-03-21 10:19:25,734 INFO    MainThread:14732 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to e:\project\CV with DL\wandb\run-20250321_101925-19ih43le\logs\debug-internal.log
+2025-03-21 10:19:25,734 INFO    MainThread:14732 [wandb_init.py:init():761] calling init triggers
+2025-03-21 10:19:25,734 INFO    MainThread:14732 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-21 10:19:25,734 INFO    MainThread:14732 [wandb_init.py:init():784] starting backend
+2025-03-21 10:19:25,735 INFO    MainThread:14732 [wandb_init.py:init():788] sending inform_init request
+2025-03-21 10:19:25,748 INFO    MainThread:14732 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-03-21 10:19:25,749 INFO    MainThread:14732 [wandb_init.py:init():798] backend started and connected
+2025-03-21 10:19:25,751 INFO    MainThread:14732 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-21 10:19:26,815 INFO    MainThread:14732 [wandb_init.py:init():891] updated telemetry
+2025-03-21 10:19:26,874 INFO    MainThread:14732 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-21 10:19:27,564 INFO    MainThread:14732 [wandb_init.py:init():990] starting run threads in backend
+2025-03-21 10:19:28,021 INFO    MainThread:14732 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-21 10:19:28,022 INFO    MainThread:14732 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-21 10:19:28,022 INFO    MainThread:14732 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-21 10:19:28,022 INFO    MainThread:14732 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-21 10:19:28,026 INFO    MainThread:14732 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-21 10:26:22,287 INFO    MainThread:14732 [wandb_init.py:setup_run_log_directory():647] Logging user logs to e:\project\CV with DL\wandb\run-20250321_102622-9xrwqa6v\logs\debug.log
+2025-03-21 10:26:22,287 INFO    MainThread:14732 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to e:\project\CV with DL\wandb\run-20250321_102622-9xrwqa6v\logs\debug-internal.log
+2025-03-21 10:26:22,288 INFO    MainThread:14732 [wandb_init.py:init():761] calling init triggers
+2025-03-21 10:26:22,288 INFO    MainThread:14732 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-21 10:26:22,288 INFO    MainThread:14732 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-21 10:26:36,586 INFO    MainThread:14732 [wandb_init.py:setup_run_log_directory():647] Logging user logs to e:\project\CV with DL\wandb\run-20250321_102636-a0vwz313\logs\debug.log
+2025-03-21 10:26:36,587 INFO    MainThread:14732 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to e:\project\CV with DL\wandb\run-20250321_102636-a0vwz313\logs\debug-internal.log
+2025-03-21 10:26:36,587 INFO    MainThread:14732 [wandb_init.py:init():761] calling init triggers
+2025-03-21 10:26:36,588 INFO    MainThread:14732 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-21 10:26:36,589 INFO    MainThread:14732 [wandb_init.py:init():776] wandb.init() called while a run is active
